@@ -1,0 +1,14 @@
+{
+    "name": "i-can-learn-academy",
+    "version": "1.0.0",
+    "description": "Full stack tuition website",
+    "scripts": {
+        "install-all": "cd server && npm install && cd ../client && npm install",
+        "start": "echo \"Please install concurrently to run both, or run server and client in separate terminals.\"",
+        "server": "cd server && npm start",
+        "client": "cd client && npm run dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
