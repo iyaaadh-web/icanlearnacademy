@@ -1,14 +1,22 @@
 {
-    "name": "i-can-learn-academy",
-    "version": "1.0.0",
-    "description": "Full stack tuition website",
+    "name": "i-can-learn-academy-client",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
     "scripts": {
-        "install-all": "cd server && npm install && cd ../client && npm install",
-        "start": "echo \"Please install concurrently to run both, or run server and client in separate terminals.\"",
-        "server": "cd server && npm start",
-        "client": "cd client && npm run dev"
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "@vitejs/plugin-react": "^4.2.1",
+        "vite": "^5.1.0"
+    }
 }
